@@ -1,0 +1,11 @@
+/*
+Theme Name: Gutech Child
+Theme URI: http://localhost:8000/
+Description: Child Theme for Business
+Author: Alex Gutierrez
+Author URI: http://alexgutierrez.tech
+Template: Business
+Version: 0.1
+*/
+
+@import url("../Business/style.css");
