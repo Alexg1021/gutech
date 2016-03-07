@@ -1,0 +1,26 @@
+{
+  "name": "gutech",
+  "version": "1.0.0",
+  "description": "personal web page",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexg1021/gutech.git"
+  },
+  "author": "Alex Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexg1021/gutech/issues"
+  },
+  "homepage": "https://github.com/Alexg1021/gutech#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-watch": "^4.3.5"
+  }
+}
