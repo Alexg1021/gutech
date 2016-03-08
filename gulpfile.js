@@ -5,10 +5,10 @@ var gulp = require('gulp'),
     notify = require('gulp-notify');
 
 gulp.task('less', function () {
-    gulp.src('./wp-content/themes/Business-child/static/less/app.less')
+    gulp.src('./wp-content/themes/zerif-child/static/less/app.less')
         .pipe(plumber())
         .pipe(less())
-        .pipe(gulp.dest('./wp-content/themes/Business-child/static/css/'))
+        .pipe(gulp.dest('./wp-content/themes/zerif-child/static/css/'))
         .pipe(notify({
             title: 'Gulp',
             subtitle: 'Less compiled',
@@ -17,7 +17,7 @@ gulp.task('less', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('./wp-content/themes/Business-child/static/less/*.less', ['less']);
+    gulp.watch('./wp-content/themes/zerif-child/static/less/*.less', ['less']);
 });
 
 gulp.task('default', ['less', 'watch']);

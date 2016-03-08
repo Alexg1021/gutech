@@ -1,0 +1,12 @@
+/*
+Theme Name: Gutech invert child
+Theme URI: http://localhost:8000/
+Description: Child Theme for invert-lite
+Author: Alex Gutierrez
+Author URI: http://alexgutierrez.tech
+Template: invert-lite
+Version: 0.1
+*/
+
+@import url("../invert-lite/style.css");
+@import url("static/css/app.css");

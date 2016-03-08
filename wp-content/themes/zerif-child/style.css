@@ -1,0 +1,12 @@
+/*
+Theme Name: Gutech zerif child
+Theme URI: http://localhost:8000/
+Description: Child Theme for zerif-lite
+Author: Alex Gutierrez
+Author URI: http://alexgutierrez.tech
+Template: zerif-lite
+Version: 0.1
+*/
+
+@import url("../zerif-lite/style.css");
+@import url("static/css/app.css");
