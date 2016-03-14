@@ -1,2 +1,184 @@
 @import "home";
 @import "header";
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700");
+
+// Child Theme Styles
+
+body{
+  font-family: 'Ubuntu',sans-serif!important;
+}
+
+/*===== Header Styles ======*/
+.navbar-toggle.collapsed{
+  background-color: transparent!important;
+}
+.icon-bar{
+  background-color: #272727!important;
+  height: 5px!important;
+  width: 25px!important;
+}
+
+/*===== Banner Styles =====*/
+.intro-text{
+  font-size: 70px;
+  line-height: 1em;
+}
+
+.fa-heart{
+  color: #E14D64;
+}
+
+.red-btn{
+  border-radius: 0px;
+    background-color: inherit;
+    border: 4px solid #e96656;
+}
+
+.red-btn:hover{
+  border: 4px solid #e96656;
+  background-color: #e96656;
+}
+.red-btn:active{
+  border: 4px solid #e96656;
+  background-color: #e96656;
+}
+
+.green-btn{
+  background: inherit;
+    border: 4px solid #1e9e6b;
+    border-radius: 0px;
+}
+
+.green-btn:hover, .green-btn:active{
+  border: 4px solid #1e9e6b;
+  background-color: #1e9e6b;
+}
+
+@media (max-width: 481px) {
+  .intro-text {
+    font-size: 50px;
+  }
+}
+
+
+
+/*===== Services Styles =====*/
+
+/*===== Ribbon 1 Styles=====*/
+#ribbon_bottom{
+background-color: rgba(39, 39, 39, 0.7);
+}
+
+#ribbon_bottom .green-btn{
+  background-color: inherit;
+}
+
+#ribbon_bottom .green-btn:hover{
+  background-color: #1e9e6b;
+}
+
+/*===== About Styles =====*/
+
+/*===== Testimonials Styles =====*/
+#testimonials, .testimonial{
+  background-color: #17A697;
+}
+.testimonial{
+  padding-top: 35px;
+}
+.section-header{
+  padding-bottom: 35px;
+}
+#client-feedbacks .feedback-box{
+  width: 100%;
+  border-radius: 0px;
+}
+.feedback-box .client-image {
+  height: 150px;
+  width: 150px;
+}
+.hidden-xs{
+  display: inherit!important;
+}
+@media (max-width: 481px) {
+  .feedback-box .client-image {
+    float: left;
+    margin-top: 30px!important;
+  }
+}
+
+/*===== Ribbon 2 Styles=====*/
+#ribbon_right{
+background-color: rgba(37, 37, 37, 0.7);
+}
+
+#ribbon_right .red-btn{
+  background-color: inherit;
+}
+
+#ribbon_right .red-btn:hover{
+  background-color: rgb(233, 102, 86);
+}
+
+
+/*===== Latest News Styles=====*/
+
+/*===== Contact Styles=====*/
+.pirate_forms input{
+  background-color: inherit;
+  border-radius: 0px!important;
+  border-bottom: 4px solid #eee;
+  color: #ddd;
+}
+input[type="text"], input[type="email"]{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  font-weight: 300;
+  color: #fff;
+}
+input[type="text"]:focus, input[type="email"]:focus{
+  color: #fff;
+  font-weight: 300;
+}
+
+.form-control{
+  box-shadow: none;
+}
+.contact-us textarea{
+  border-bottom: 4px solid #eee;
+    background-color: inherit;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px!important;
+    color: #fff;
+    font-weight: 300;
+}
+.pirate_forms textarea{
+  min-height: 100px;
+}
+.pirate_forms .pirate-forms-submit-button {
+border: 4px solid #E96656;
+border-radius: 0px;
+background-color: inherit;
+}
+
+.pirate_forms .pirate-forms-submit-button:hover{
+  background-color: #E96656;
+}
+
+/*=====Footer Styles =====*/
+
+.fa-facebook, .fa-twitter, .fa-linkedin{
+  font-size: 2em;
+}
+.fa-twitter:hover{
+  color: #34D293;
+}
+.fa-linkedin:hover{
+  color: #3AB0E2;
+}
+.zerif-copyright-box{
+  display: none;
+}
